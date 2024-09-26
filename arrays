@@ -1,0 +1,10 @@
+// A nested array representing a list of students and their scores in different subjects
+var students = [
+    ['Alice', [85, 90, 78]],  // Alice's scores: Math, Science, English
+    ['Bob', [92, 88, 95]],    // Bob's scores
+    ['Charlie', [70, 75, 80]] // Charlie's scores
+];
+
+// Accessing a specific student's scores
+console.log(students[1][1]); // Output: [92, 88, 95] (Bob's scores)
+console.log(students[2][2]);
